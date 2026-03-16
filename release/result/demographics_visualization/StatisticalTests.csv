@@ -1,0 +1,5 @@
+Variable,Test,Statistic,p-value,Significant (α=0.05)
+Age,Independent t-test,t = 11.954,0.0000,Yes
+Height,Independent t-test,t = 4.800,0.0000,Yes
+Weight,Independent t-test,t = 7.045,0.0000,Yes
+Gender,Chi-square test,χ² = 216.164,0.0000,Yes
