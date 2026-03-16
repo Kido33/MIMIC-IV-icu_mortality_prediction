@@ -73,7 +73,7 @@ SMOTE, Focal Loss(γ=3,4), Class Weight 조정 등 다층 전략 적용
 
 ```
 release/
-├── 00_extraction.py              # MIMIC-IV 데이터 추출 (admissions, icustays, chartevents)
+├── 00_extraction.py_excluded     # MIMIC-IV 데이터 추출 (admissions, icustays, chartevents)
 ├── 01_preprocess.py              # 결측치 처리, 이상치 제거, 파생변수 생성
 ├── 02_window_6h.py               # 시계열 윈도우 생성 (6시간 단위 집계)
 ├── 03_multimodal.py              # 시계열 + 정적 변수 융합 데이터셋 구축
